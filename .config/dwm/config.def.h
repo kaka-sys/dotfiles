@@ -1,6 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 
-
+/* volume */
 #include <X11/XF86keysym.h>
 static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
 static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",     NULL };
