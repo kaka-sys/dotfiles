@@ -57,6 +57,9 @@ setxbmap tr &
 # Display (DONE BUT NEED TO EDIT)
 #xrandr --output LVDS1 --mode 1366x768 --output VGA1 --mode 1600x900 --right-of LVDS1
 
+# XFCE polkit
+/usr/lib/xfce-polkit/xfce-polkit &
+
 # Wallpaper
 feh --bg-scale Wallpapers/arch.png &
 
