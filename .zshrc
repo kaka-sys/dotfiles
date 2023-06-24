@@ -74,6 +74,8 @@ plugins=(git archlinux zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
+alias sudo=doas
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
