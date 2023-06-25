@@ -74,7 +74,6 @@ plugins=(git archlinux zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-alias sudo=doas
 
 # User configuration
 
